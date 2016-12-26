@@ -1,3 +1,29 @@
+/**
+ * Description: Basic undirected unweighted graph
+ * implemented as an adjacency list.  Uses a vertex
+ * indexed array of bags.
+ *
+ * Dependencies: Bag.java, Queue.java
+ *
+ * API                            Description
+ * -----------------------------------------------------
+ *     Graph(int v)               Adjancency list with v
+ *                                empty bags
+ *
+ *     Graph(In in)               Read and build graph
+ *                                from file
+ *
+ * void addEdge(int v, int w)     Add edges v-w, and w-v
+ *
+ * int numOfVertices()            Return number of
+ *                                vertices
+ *
+ * int numOfEdges()               Return number of edges
+ *
+ * Queue<Integer> adjacentVertices(int v)
+ *                                Return vertices adjacent
+ *                                to v in queue
+ */
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 

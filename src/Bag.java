@@ -1,3 +1,20 @@
+/**
+  * Description: Integers bag/multiset implemented as a 
+  * linked list.  Implements a set which allows 
+  * duplicates.  Does not allow removal.  Designed for 
+  * use with graphs.
+  * 
+  * Dependencies: Queue.java
+  * 
+  * API                            Description
+  * -----------------------------------------------------
+  * void insert(int vertexNumber)  Add an int to the bag
+  * 
+  * boolean contains(int val)      Is val in bag?
+  * 
+  * Queue<Integer> getSet()        Return bag as a FIFO
+  *                                queue of integers
+  */
 public class Bag
 {
     private Node first;
