@@ -67,7 +67,9 @@ public class Stack<Item>
     }
     
     public Item pop()
-    {
+    {   // check for underflow
+        if (isEmpty()) throw new RuntimeException("Error: Underflow. Attempt to"
+                                                  + " pop empty stack.");
         Item topItem = top.item;
         top = top.next;
         size--;
